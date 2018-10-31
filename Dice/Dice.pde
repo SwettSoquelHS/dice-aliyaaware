@@ -57,6 +57,7 @@ void draw() {
   textSize(20);
   text("Total single roll: " + total, 300, 580);
   text("Overall roll total: " + overall, 500, 580);
+  total = 0;
 }
 
 void mousePressed() {
