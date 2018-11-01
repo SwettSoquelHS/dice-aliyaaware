@@ -51,13 +51,15 @@ void draw() {
   total+= die8.total;
   die9.show();
   total+= die9.total;
-
   overall+=total;
+
   fill(0);
   textSize(20);
-  text("Total single roll: " + total, 300, 580);
-  text("Overall roll total: " + overall, 500, 580);
-  total = 0;
+  text("Total roll: " + total, 300, 580);
+  text("Total roll: " + overall, 500, 580);
+  total =0;
+
+  
 }
 
 void mousePressed() {
